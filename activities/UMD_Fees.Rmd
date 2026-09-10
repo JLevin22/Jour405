@@ -6,6 +6,9 @@ Follow along with the demo to learn how to calculate percentage change using R a
 
 
 ### Task 1: Load the tidyverse
+```{r}
+2+2
+```
 
 
 ```{r}
@@ -33,6 +36,7 @@ umd_fees_pct <- umd_fees |> mutate(pct_change = (`Fall 2026`- `Fall 2021`)/`Fall
 
 Write a few sentences about what you found in those percentages. What's the story here? What questions do you have?
 
+Since athletics is a big sorce of revenue for the university, why arent they raising the cost of something people would be willing to pay, wheras student counciling is very important for peoples well being and by raising the cost makes it more unavailable to students who have financial insecurity. this can also relate to student transportation, because even though the costs have gone up for the university, students who also suffer financial insecurity might have trouble relating to these costs. Why are costs overwhall going up, and why are counciling costs going up in the first place. 
 
 
 
