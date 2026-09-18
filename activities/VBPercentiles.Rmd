@@ -37,8 +37,7 @@ team_aces |> mutate(percentile = ntile(total_aces, 100))
 
 ### Task 5: Describe the percentiles
 
-Write a couple of sentences that puts Maryland into context with the other teams in the dataset. You can do some Internet research to help with this.
-
+Northern Colorado has a strong national ranking in volleyball during the 2024 season, winning 28 games and losing 8. while Sacromanto state won The Big sky champianship. This suggests that the total aces percentile does matter at least when it comes to the universities with the highest percentile of total acees. South Carolina at the bottom indeed had a horrible 2024 season of womans volleyball, as well as Alcorn.  However,UMD had a trashy season and lost most of its games. It should be noted that the UMD womans volleyball team in the 2024 season dealt with many injuries, which could have something to do with it? When I googled whether the percentiles matter in regards to aces, it says it does not. However based on my research at least when it comes to the top and bottom teams it does. While UMD is an outlier, injuries plagued the team and could have caused the outcome that makes it an outlier. 
 
 
 When you are done, save your work, switch to GitHub Desktop, then add, commit and push your changes to GitHub and submit the URL of the notebook in ELMS.
