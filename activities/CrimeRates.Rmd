@@ -8,7 +8,7 @@ Follow along with the demo to learn how to calculate crime rates using R and the
 
 ```{r}
 library(tidyverse)
-install.packages("janitor")
+#install.packages("janitor")
 library(janitor)
 ```
 
@@ -48,7 +48,7 @@ crimes_with_rates <- crimes |> mutate(violent_rate = violent_crime_total/populat
 
 Write a few sentences about what you found in the data. What years had the highest crime rates? What years had the lowest crime rates? Does the pattern match your expectations? What might explain some of the results you found?
 
-
+It seems like as a whole crime rates went down, particurlaly in the last few years. I can expect that because of the Covid 19 pandemic which kept people inside not comitting crimes outside. However, although crime rates a whole went down, population has gone up, shouldn't that mean the crime rate should go up? During class we discussed the crack epedimic but i have a hard time using that as a good enough explanation to outweigh the population increase aspect. According to USA facts indeed, crime rates do go up with population increases. I can not explain this
 
 
 When you are done, save your work, switch to GitHub Desktop, then add, commit and push your changes to GitHub and submit the URL of the notebook in ELMS.
